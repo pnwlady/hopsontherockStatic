@@ -54,13 +54,15 @@ p {
 }
 
 .bg-primary {
-    $green: #00fffa;
-    $blue: #006eff;
-    opac­ity­: ($green, 20%);
-    opac­ity­: ($blue, 10%);
-    background: linear-gradient($green, $blue);
+    --color1: #00fffa;
+    --color2: #006eff;
+    opacity: .7;
+    /* opac­ity­: (color1, 20%);
+    opac­ity­: (color2, 10%); */
+    background: linear-gradient(to bottom right, blue, green);
+    /* background: linear-gradient(to bottom right, color1, color2); */
 
-  // background-color: #006eff;
+  /* // background-color: #006eff; */
 }
 
 .bg-dark {
