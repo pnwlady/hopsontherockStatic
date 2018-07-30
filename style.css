@@ -51,14 +51,17 @@ p {
   color: black;
   font-family: 'GothamBoldRegular', sans-serif;
 }
-
+.background {
+  --color1: #00fffa;
+  --color2: #006eff;
+  opacity: .8;
+  background: linear-gradient(#006eff, #00fffa);
+}
 .bg-primary {
-    --color1: #00fffa;
-    --color2: #006eff;
-    opacity: .8;
+
     /* opac­ity­: (color1, 20%);
     opac­ity­: (color2, 10%); */
-    background: linear-gradient(#006eff, #00fffa);
+
     height: 100%;
     /* background: linear-gradient(to bottom right, color1, color2); */
 
