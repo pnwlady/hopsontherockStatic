@@ -12,7 +12,7 @@
   margin: 0 auto;
   margin-top: 3%;
   margin-bottom: 3%;
-  max-width: 30%;
+  max-width: 30% !important;
   height: auto;
 }
 
@@ -27,13 +27,13 @@ a {
 }
 
 h1 {
-  font-size: 48px;
-  font-family: 'Josefin Slab', serif;
+  font-size: 48px !important;
+  font-family: 'Josefin Slab', serif !important;
 }
 
 h2 {
-  font-size: 30px;
-  font-family: 'Josefin Slab', serif;
+  font-size: 30px !important;
+  font-family: 'Josefin Slab', serif !important;
 }
 
 h3, h4, h5 {
@@ -48,7 +48,6 @@ p {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 20px;
-
   color: black;
   font-family: 'GothamBoldRegular', sans-serif;
 }
@@ -56,10 +55,10 @@ p {
 .bg-primary {
     --color1: #00fffa;
     --color2: #006eff;
-    opacity: .7;
+    opacity: .8;
     /* opac­ity­: (color1, 20%);
     opac­ity­: (color2, 10%); */
-    background: linear-gradient(to bottom right, blue, green);
+    background: linear-gradient(#006eff, #00fffa);
     /* background: linear-gradient(to bottom right, color1, color2); */
 
   /* // background-color: #006eff; */
